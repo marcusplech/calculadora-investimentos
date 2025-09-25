@@ -2,7 +2,9 @@
 
 Uma aplicação web moderna para calcular rendimentos de investimentos, desenvolvida com Next.js 15 e TypeScript.
 
-![Testes da Aplicação](https://github.com/user-attachments/assets/4c8b5c5a-8b5f-4c8a-9c5e-2d3f4e5a6b7c)
+## 🌐 Demo
+
+**[🚀 Acesse a aplicação em funcionamento](https://calculadora-investimentos-iota.vercel.app/)**
 
 ## 🚀 Funcionalidades
 
