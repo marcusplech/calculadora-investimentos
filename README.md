@@ -165,7 +165,7 @@ calculadora-investimentos/
 A aplicação utiliza a fórmula de juros compostos:
 
 ```
-Valor Final = Valor Inicial × (1 + Taxa/100)^Período
+M = P . (1 + i) ^ t/252
 ```
 
 ### Formatação de Dados
@@ -231,20 +231,6 @@ npm run build
 npm run start
 ```
 
-### Outras Plataformas
-
-#### Netlify
-```bash
-# Build command: npm run build
-# Publish directory: .next
-```
-
-#### Railway
-```bash
-# O projeto está pronto para deploy no Railway
-# Conecte o repositório GitHub diretamente
-```
-
 ## 🤝 Contribuição
 
 1. Faça um fork do projeto
@@ -253,14 +239,6 @@ npm run start
 4. Push para a branch (`git push origin feature/AmazingFeature`)
 5. Abra um Pull Request
 
-## 📄 Licença
-
-Este projeto é propriedade do Grupo Primo.
-
 ## 📞 Suporte
 
 Para suporte técnico ou dúvidas sobre o projeto, entre em contato com a equipe de desenvolvimento.
-
----
-
-**Desenvolvido com ❤️ para o Grupo Primo**
