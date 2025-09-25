@@ -190,13 +190,35 @@ Valor Final = Valor Inicial × (1 + Taxa/100)^Período
 ## 🚀 Deploy
 
 ### Vercel (Recomendado)
+
+#### Deploy Automático via GitHub
+1. Acesse [vercel.com](https://vercel.com)
+2. Conecte sua conta GitHub
+3. Importe o repositório `calculadora-investimentos`
+4. A Vercel detectará automaticamente que é um projeto Next.js
+5. Clique em "Deploy" - o deploy será automático!
+
+#### Deploy via CLI
 ```bash
 # Instalar Vercel CLI
 npm i -g vercel
 
+# Fazer login na Vercel
+vercel login
+
 # Deploy
 vercel
+
+# Para deploy de produção
+vercel --prod
 ```
+
+#### Configurações da Vercel
+O projeto já está configurado com:
+- `vercel.json` com configurações otimizadas
+- Build command: `npm run build`
+- Framework: Next.js (detectado automaticamente)
+- Node.js version: 18.x (padrão da Vercel)
 
 ### Build Manual
 ```bash
@@ -205,6 +227,20 @@ npm run build
 
 # Iniciar servidor de produção
 npm run start
+```
+
+### Outras Plataformas
+
+#### Netlify
+```bash
+# Build command: npm run build
+# Publish directory: .next
+```
+
+#### Railway
+```bash
+# O projeto está pronto para deploy no Railway
+# Conecte o repositório GitHub diretamente
 ```
 
 ## 🤝 Contribuição
