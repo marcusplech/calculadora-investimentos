@@ -15,12 +15,12 @@ export const formatCurrency = (value: number): string => {
 };
 
 /**
- * Calculates the final amount considering annual rate, initial value, monthly contributions and business days
- * @param annualRate - Annual rate (decimal, e.g. 0.1 for 10%)
- * @param principal - Initial value
- * @param monthlyContribution - Monthly contribution
- * @param months - Number of months
- * @returns Final amount
+ * Calcula o valor final considerando taxa anual, valor inicial, aportes mensais e dias úteis
+ * @param annualRate - Taxa anual (decimal, ex: 0.1 para 10%)
+ * @param principal - Valor inicial
+ * @param monthlyContribution - Aporte mensal
+ * @param months - Número de meses
+ * @returns Valor final
  */
 export const calculateCompoundInterest = (
   annualRate: number,
